@@ -14,28 +14,28 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <Icon name="Settings" className="h-8 w-8 text-blue-600 mr-3" />
-              <span className="text-xl font-bold text-gray-900">МАШКОМПЛЕКТ</span>
+              <Icon name="Settings" className="h-8 w-8 text-red-600 mr-3" />
+              <span className="text-xl font-bold text-black">МАШКОМПЛЕКТ</span>
             </div>
             <nav className="hidden md:flex space-x-8">
-              <a href="#home" className="text-gray-600 hover:text-blue-600 font-medium transition-colors">Главная</a>
-              <a href="#about" className="text-gray-600 hover:text-blue-600 font-medium transition-colors">О нас</a>
-              <a href="#catalog" className="text-gray-600 hover:text-blue-600 font-medium transition-colors">Каталог</a>
-              <a href="#production" className="text-gray-600 hover:text-blue-600 font-medium transition-colors">Производство</a>
-              <a href="#contact" className="text-gray-600 hover:text-blue-600 font-medium transition-colors">Связаться</a>
+              <a href="#home" className="text-gray-800 hover:text-red-600 font-medium transition-colors">Главная</a>
+              <a href="#about" className="text-gray-800 hover:text-red-600 font-medium transition-colors">О нас</a>
+              <a href="#catalog" className="text-gray-800 hover:text-red-600 font-medium transition-colors">Каталог</a>
+              <a href="#production" className="text-gray-800 hover:text-red-600 font-medium transition-colors">Производство</a>
+              <a href="#contact" className="text-gray-800 hover:text-red-600 font-medium transition-colors">Связаться</a>
             </nav>
           </div>
         </div>
       </header>
 
       {/* Hero Section */}
-      <section id="home" className="relative bg-gradient-to-br from-gray-900 to-gray-800 text-white py-24">
+      <section id="home" className="relative bg-gradient-to-br from-black to-gray-900 text-white py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
               <h1 className="text-5xl font-bold mb-6 leading-tight">
                 Производство<br/>
-                <span className="text-blue-400">деталей машин</span><br/>
+                <span className="text-red-500">деталей машин</span><br/>
                 по индивидуальным заказам
               </h1>
               <p className="text-xl text-gray-300 mb-8">
@@ -43,19 +43,19 @@ const Index = () => {
                 Современное оборудование и контроль качества.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+                <Button size="lg" className="bg-red-600 hover:bg-red-700">
                   <Icon name="FileText" className="mr-2 h-5 w-5" />
                   Оставить заявку
                 </Button>
-                <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-gray-900">
+                <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-black">
                   <Icon name="Phone" className="mr-2 h-5 w-5" />
                   Связаться
                 </Button>
               </div>
             </div>
             <div className="relative">
-              <div className="bg-gray-700 rounded-lg p-8 text-center animate-scale-in">
-                <Icon name="Cog" className="h-32 w-32 text-blue-400 mx-auto mb-4" />
+              <div className="bg-gray-800 rounded-lg p-8 text-center animate-scale-in">
+                <Icon name="Cog" className="h-32 w-32 text-red-500 mx-auto mb-4" />
                 <p className="text-gray-300">Современное производство</p>
               </div>
             </div>
@@ -64,24 +64,24 @@ const Index = () => {
       </section>
 
       {/* Stats Section */}
-      <section className="py-16 bg-blue-600">
+      <section className="py-16 bg-red-600">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center text-white">
             <div className="animate-fade-in">
               <div className="text-4xl font-bold mb-2">15+</div>
-              <div className="text-blue-100">лет на рынке</div>
+              <div className="text-red-100">лет на рынке</div>
             </div>
             <div className="animate-fade-in">
               <div className="text-4xl font-bold mb-2">500+</div>
-              <div className="text-blue-100">выполненных заказов</div>
+              <div className="text-red-100">выполненных заказов</div>
             </div>
             <div className="animate-fade-in">
               <div className="text-4xl font-bold mb-2">0.01мм</div>
-              <div className="text-blue-100">точность обработки</div>
+              <div className="text-red-100">точность обработки</div>
             </div>
             <div className="animate-fade-in">
               <div className="text-4xl font-bold mb-2">24/7</div>
-              <div className="text-blue-100">техническая поддержка</div>
+              <div className="text-red-100">техническая поддержка</div>
             </div>
           </div>
         </div>
@@ -91,22 +91,22 @@ const Index = () => {
       <section id="about" className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">О нашем производстве</h2>
-            <p className="text-xl text-gray-600">Современные технологии для создания качественных деталей</p>
+            <h2 className="text-4xl font-bold text-black mb-4">О нашем производстве</h2>
+            <p className="text-xl text-gray-800">Современные технологии для создания качественных деталей</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card className="text-center hover:shadow-lg transition-shadow">
               <CardHeader>
-                <Icon name="Wrench" className="h-12 w-12 text-blue-600 mx-auto mb-4" />
+                <Icon name="Wrench" className="h-12 w-12 text-red-600 mx-auto mb-4" />
                 <CardTitle>Индивидуальный подход</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600">Изготавливаем детали по вашим чертежам и техническим требованиям</p>
+                <p className="text-gray-800">Изготавливаем детали по вашим чертежам и техническим требованиям</p>
               </CardContent>
             </Card>
             <Card className="text-center hover:shadow-lg transition-shadow">
               <CardHeader>
-                <Icon name="Shield" className="h-12 w-12 text-blue-600 mx-auto mb-4" />
+                <Icon name="Shield" className="h-12 w-12 text-red-600 mx-auto mb-4" />
                 <CardTitle>Контроль качества</CardTitle>
               </CardHeader>
               <CardContent>
@@ -115,7 +115,7 @@ const Index = () => {
             </Card>
             <Card className="text-center hover:shadow-lg transition-shadow">
               <CardHeader>
-                <Icon name="Clock" className="h-12 w-12 text-blue-600 mx-auto mb-4" />
+                <Icon name="Clock" className="h-12 w-12 text-red-600 mx-auto mb-4" />
                 <CardTitle>Быстрые сроки</CardTitle>
               </CardHeader>
               <CardContent>
@@ -130,8 +130,8 @@ const Index = () => {
       <section id="catalog" className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Каталог продукции</h2>
-            <p className="text-xl text-gray-600">Основные категории деталей, которые мы производим</p>
+            <h2 className="text-4xl font-bold text-black mb-4">Каталог продукции</h2>
+            <p className="text-xl text-gray-800">Основные категории деталей, которые мы производим</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
@@ -144,11 +144,11 @@ const Index = () => {
             ].map((item, index) => (
               <Card key={index} className="hover:shadow-lg transition-shadow cursor-pointer">
                 <CardHeader className="text-center">
-                  <Icon name={item.icon as any} className="h-16 w-16 text-blue-600 mx-auto mb-4" />
+                  <Icon name={item.icon as any} className="h-16 w-16 text-red-600 mx-auto mb-4" />
                   <CardTitle className="text-xl">{item.name}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 text-center">{item.description}</p>
+                  <p className="text-gray-800 text-center">{item.description}</p>
                   <Button variant="outline" className="w-full mt-4">
                     Подробнее
                   </Button>
@@ -160,7 +160,7 @@ const Index = () => {
       </section>
 
       {/* Production Section */}
-      <section id="production" className="py-20 bg-gray-900 text-white">
+      <section id="production" className="py-20 bg-black text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">Наше производство</h2>
@@ -174,9 +174,9 @@ const Index = () => {
               { title: 'Контрольное оборудование', count: '15 единиц' }
             ].map((item, index) => (
               <div key={index} className="bg-gray-800 rounded-lg p-6 text-center">
-                <Icon name="Factory" className="h-12 w-12 text-blue-400 mx-auto mb-4" />
+                <Icon name="Factory" className="h-12 w-12 text-red-500 mx-auto mb-4" />
                 <h3 className="text-lg font-semibold mb-2">{item.title}</h3>
-                <Badge variant="secondary" className="bg-blue-600 text-white">{item.count}</Badge>
+                <Badge variant="secondary" className="bg-red-600 text-white">{item.count}</Badge>
               </div>
             ))}
           </div>
@@ -187,8 +187,8 @@ const Index = () => {
       <section id="contact" className="py-20 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Техническое задание</h2>
-            <p className="text-xl text-gray-600">Опишите детали, которые необходимо изготовить</p>
+            <h2 className="text-4xl font-bold text-black mb-4">Техническое задание</h2>
+            <p className="text-xl text-gray-800">Опишите детали, которые необходимо изготовить</p>
           </div>
           <Card className="shadow-xl">
             <CardHeader>
@@ -234,13 +234,13 @@ const Index = () => {
               <div className="space-y-2">
                 <Label htmlFor="drawings">Чертежи и документация</Label>
                 <div className="border-2 border-dashed border-gray-300 rounded-lg p-6 text-center">
-                  <Icon name="Upload" className="h-12 w-12 text-gray-400 mx-auto mb-4" />
-                  <p className="text-gray-600">Перетащите файлы сюда или нажмите для выбора</p>
+                  <Icon name="Upload" className="h-12 w-12 text-gray-500 mx-auto mb-4" />
+                  <p className="text-gray-800">Перетащите файлы сюда или нажмите для выбора</p>
                   <p className="text-sm text-gray-500 mt-2">Поддерживаются: PDF, DWG, STEP, IGS</p>
                 </div>
               </div>
               <div className="flex justify-center">
-                <Button size="lg" className="bg-blue-600 hover:bg-blue-700 w-full md:w-auto">
+                <Button size="lg" className="bg-red-600 hover:bg-red-700 w-full md:w-auto">
                   <Icon name="Send" className="mr-2 h-5 w-5" />
                   Отправить заявку
                 </Button>
@@ -251,19 +251,19 @@ const Index = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-12">
+      <footer className="bg-black text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center mb-4">
-                <Icon name="Settings" className="h-8 w-8 text-blue-400 mr-3" />
+                <Icon name="Settings" className="h-8 w-8 text-red-500 mr-3" />
                 <span className="text-xl font-bold">МАШКОМПЛЕКТ</span>
               </div>
-              <p className="text-gray-300">Производство деталей машин высокого качества с 2009 года</p>
+              <p className="text-gray-400">Производство деталей машин высокого качества с 2009 года</p>
             </div>
             <div>
               <h3 className="text-lg font-semibold mb-4">Услуги</h3>
-              <ul className="space-y-2 text-gray-300">
+              <ul className="space-y-2 text-gray-400">
                 <li>Токарная обработка</li>
                 <li>Фрезерная обработка</li>
                 <li>Шлифование</li>
@@ -296,7 +296,7 @@ const Index = () => {
               </div>
             </div>
           </div>
-          <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+          <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-500">
             <p>&copy; 2024 МАШКОМПЛЕКТ. Все права защищены.</p>
           </div>
         </div>
